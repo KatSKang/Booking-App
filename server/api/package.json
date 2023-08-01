@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "booking ap",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
@@ -10,10 +11,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.1",
     "mongodb": "^5.7.0",
     "mongoose": "^7.4.1",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "npm": "^9.8.1"
   }
 }
